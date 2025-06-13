@@ -79,18 +79,18 @@ Each document in Couchbase will have the following structure:
 {
   "timestamp": "1749216786471",
   "protocol": "HTTPS",
-  "host": "txesvzwvspc-l-hp-x-01-002",
+  "host": "vspc-l-hp-x-01-002",
   "direction": "IN",
   "flag1": "0",
   "flag2": "0",
-  "session_id": "3114800662931111",
+  "session_id": "31148062931111",
   "auth_type": "full-auth-init",
   "device_type": "AndroidDevice",
   "value1": "0",
-  "reference_id": "311480066291111",
-  "decryption_info": "DEGCID=xZWXC5Xqlz5P/46wLie9rPllg6Q=",
-  "message": "Received EAP-AKA request from Device;app_name=com.google.android.gms",
-  "device_id": "3532431523411111"
+  "reference_id": "3114800291111",
+  "decryption_info": "DEGCID=xZWXqlz5P/46wLie9rPllg6Q=",
+  "message": "Received EAP-AKA request from Device;app_name=com.google.android.gm",
+  "device_id": "3532433411111"
   // any extra fields will be field_1, field_2, ...
 }
 ```
@@ -109,5 +109,3 @@ The script includes comprehensive error handling for:
 - To skip or include empty fields, adjust the logic in the `parse_nrb_line` function.
 
 ---
-
-**For any issues or enhancements, please provide a sample `.nrb` line and your expected output for the fastest support!** 
